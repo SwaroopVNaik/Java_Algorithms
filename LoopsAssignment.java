@@ -29,16 +29,17 @@ public class LoopsAssignment
         // }.
 
         // Question 2 : check if the charcter is upper case 
-        // Matches method check 
+        // Matches method check  (for loop pending)
 
         String Letter;
 
         System.out.println("Enter Your Single Character : ");
+        Letter = sc.next();
          // the charAt 0 checks the first letter in the word 
         
 
         if(Letter.matches("[A-Z]"))
-            {
+        {
             System.out.println("The charcter is UpperCase");
         }
         else
@@ -187,31 +188,31 @@ public class LoopsAssignment
 
         // Question 9 : Nested If(Scholarship Eligibilty ) Compare with marks and family income
 
-        int Student_marks;
-        long family_Income;
+        // int Student_marks;
+        // long family_Income;
 
-        System.out.println("Please do enter your marks to avail the scholarship eligibality :");
-        Student_marks = sc.nextInt();
+        // System.out.println("Please do enter your marks to avail the scholarship eligibality :");
+        // Student_marks = sc.nextInt();
 
-        System.out.println("Please do enter your salary to avail the scholarship eligibality :");
-        family_Income = sc.nextLong();
+        // System.out.println("Please do enter your salary to avail the scholarship eligibality :");
+        // family_Income = sc.nextLong();
 
-        if((Student_marks >= 90 && Student_marks <=100) && (family_Income > 10000 && family_Income <= 180001))
-        {
-            System.out.println("Eligible");
-        }
-        else if((Student_marks >= 75 && Student_marks < 89) && (family_Income >= 180001 && family_Income <= 250000 ))
-        {
-            System.out.println("Application on Hold Please wait !");
-        }
-        else if(Student_marks <= 65 && family_Income >= 300000 )
-        {
-            System.out.println("Not eligible");
-        }
-        else
-        {
-            System.out.println("Invalid Input");
-        }
+        // if((Student_marks >= 90 && Student_marks <=100) && (family_Income > 10000 && family_Income <= 180001))
+        // {
+        //     System.out.println("Eligible");
+        // }
+        // else if((Student_marks >= 75 && Student_marks < 89) && (family_Income >= 180001 && family_Income <= 250000 ))
+        // {
+        //     System.out.println("Application on Hold Please wait !");
+        // }
+        // else if(Student_marks <= 65 && family_Income >= 300000 )
+        // {
+        //     System.out.println("Not eligible");
+        // }
+        // else
+        // {
+        //     System.out.println("Invalid Input");
+        // }
 
 
     }
