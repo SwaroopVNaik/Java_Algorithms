@@ -21,7 +21,7 @@ public class SeptemberTwo
         System.out.println("Enter the Input to check the number system");
         S1 = sc.next();
 
-        Decimal = Integer.parseInt(S1, 10);
+        Decimal = Integer.parseInt(S1, 10); // Decimal = 10
 
         if(choice == 1)
         {
