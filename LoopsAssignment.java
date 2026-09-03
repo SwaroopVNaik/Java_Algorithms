@@ -161,6 +161,8 @@ public class LoopsAssignment
         // System.out.println("Enter Num2 : ");
         // num2 = sc.nextInt();
 
+        // Menu driven user (ADD, instead of +)
+
         // switch(operators){
         //     case '+' :
         //         System.out.println("The Addtion of num1 and num2 is : " + (num1 + num2));
