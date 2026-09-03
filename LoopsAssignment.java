@@ -1,6 +1,4 @@
 import java.util.*;
-
-import javax.sql.rowset.spi.SyncResolver;
 public class LoopsAssignment
 {
 
@@ -215,7 +213,6 @@ public class LoopsAssignment
         // {
         //     System.out.println("Invalid Input");
         // }
-
 
     }
         

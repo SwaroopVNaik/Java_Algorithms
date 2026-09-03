@@ -120,20 +120,26 @@ public class Loops {
 
         // Sum Of First - N Natural Numbers 
 
-        int Sum = 0;
+        // int Sum = 0;
 
-        for (index = 1; index <= 10; index++)
-        {
+        // for (index = 1; index <= 10; index++)
+        // {
 
-            System.out.println(index);
-            Sum += index;
+        //     System.out.println(index);
+        //     Sum += index;
 
-        }
-        System.out.println("The Sum of all numbers is : " + Sum);
+        // }
+        // System.out.println("The Sum of all numbers is : " + Sum);
 
+        // Printing Infinity Loops
 
+        // It always runs infinite as it runs infinite in Java 
 
+        // for( ; ; ){
 
+        //     System.out.println("Algorithms365");
+
+        // }
 
     }
 }
