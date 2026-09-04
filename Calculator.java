@@ -27,7 +27,7 @@ public class Calculator {
         System.out.println("Enter Num2 : ");
         num2 = sc.nextInt();
 
-        switch(Operaters){
+        switch(Operaters.toUpperCase()){
             case "ADD":
                 System.out.println("The Addtion of num1 and num2 is : " + (num1 + num2));
                 break;

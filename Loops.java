@@ -141,5 +141,38 @@ public class Loops {
 
         // }
 
+        // 2nd way to run infintely
+
+        // for(index = 1; index <= 5;)
+        // {
+        //     System.out.println(index);
+        // }
+
+        // 3rd way (wrong Direction)
+
+        // for(index = 1; index <=5; index--){
+        //     System.out.println(index);
+        // }
+
+        // 4th way 
+        for(index = 5; index >= 5; index++)
+        {
+            System.out.println(index);
+        }
+
+        // Floating point number 
+
+        // for(double iindex = 1.5 ; iindex <= 7.2; iindex++){
+        //     System.out.println(iindex);
+        // }
+
+        // Negative Number 
+
+        // for(index = -5 ; index <= -1; index++){
+        //     System.out.println(index);
+        // }
+
+
+
     }
 }
