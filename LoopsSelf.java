@@ -84,25 +84,25 @@ public class LoopsSelf {
 
         // Factorial
 
-        Scanner Fact = new Scanner(System.in);
+        // Scanner Fact = new Scanner(System.in);
 
-        int FactorialNumber;
-        int index;
-        int end = 1;
-        int result = 1;
+        // int FactorialNumber;
+        // int index;
+        // int end = 1;
+        // int result = 1;
 
-        System.out.println("Enter the number to find the Factorial of Number");
-        FactorialNumber = Fact.nextInt();
+        // System.out.println("Enter the number to find the Factorial of Number");
+        // FactorialNumber = Fact.nextInt();
 
-        for(index = FactorialNumber; index >= end; index = index - 1)
-        {
-            // System.out.print(" " + index);
+        // for(index = FactorialNumber; index >= end; index = index - 1)
+        // {
+        //     // System.out.print(" " + index);
 
-            result = index * result;
-            System.out.println(index + " = " + result);
+        //     result = index * result;
+        //     System.out.println(index + " = " + result);
 
-        }
-        System.out.println("Factorial of " + FactorialNumber + " = " + result);
+        // }
+        // System.out.println("Factorial of " + FactorialNumber + " = " + result);
 
     }
 
