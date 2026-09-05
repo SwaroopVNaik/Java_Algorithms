@@ -2,6 +2,10 @@ public class StringPool
 {
     public static void main(String[] args) 
     {
+
+        //  == (compares value directly)
+        // equals => compare Objects and not for primitive data types
+        // because equals is method()
         
         // Condition : 1
         String S1 = "Saturday";
@@ -35,6 +39,7 @@ public class StringPool
 
         System.out.println("Comparing Using Relational Operators S5 and S6 : " + (S5 == S6));
         System.out.println("Comapring Using .equals() Method S5 and S6 : " + (S5.equals(S6)));
+
 
     }
 }
