@@ -1,7 +1,5 @@
 import java.util.*;
 
-import javax.swing.plaf.multi.MultiTabbedPaneUI;;
-
 public class LoopsSelfPractice {
     public static void main(String[] args) 
     {
@@ -164,18 +162,24 @@ public class LoopsSelfPractice {
 
         // print N to 1 using do while 
 
-        int index = 0;
+    
         int Number; 
 
-        Scanner Wloop2 = new Scanner(System.in);
-        Number = Wloop2.nextInt();
+        Scanner Wloop = new Scanner(System.in);
+        System.out.println("Enter the Number");
+
+        Number = Wloop.nextInt();
+
+        int index = Number;
+        int end = 1;
 
         do{
 
             System.out.println(index);
             index = index - 1;
+    
 
-        }while(index >= Number);
+        }while(index >= end);
 
     }
 }
