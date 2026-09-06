@@ -52,6 +52,7 @@ public class Calculator {
                 System.out.println("You have entered a Invalid Input ! please do check your input");
 
         }
+        sc.close();
     }
 
 }
