@@ -337,22 +337,22 @@ public class LoopsSelfPractice {
 
          // doing sum of all digits using do while 
 
-         int number;
-         int result;
-         int sum = 0;
+         // int number;
+         // int result;
+         // int sum = 0;
 
-         Scanner SUM = new Scanner(System.in);
+         // Scanner SUM = new Scanner(System.in);
 
-         System.out.println("Enter the number : ");
-         number = SUM.nextInt();
+         // System.out.println("Enter the number : ");
+         // number = SUM.nextInt();
 
-         do{
-            result = number % 10;
-            sum = sum + result;
-            number = number/10;
+         // do{
+         //    result = number % 10;
+         //    sum = sum + result;
+         //    number = number/10;
 
-         }while(number > 0);
+         // }while(number > 0);
 
-         System.out.println(sum);
+         // System.out.println(sum);
       }
 }

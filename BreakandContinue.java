@@ -1,16 +1,61 @@
+import java.util.Scanner;
+
 public class BreakandContinue 
 {
     public static void main(String[] args) 
     {
 
-        for(int i = 1 ; i<= 10; i++)
+        // Printing 1 to 10 ,stop at 5 (break)
+        // for(int index = 1; index <= 10; index = index + 1)
+        // {
+        //     if(index == 5)
+        //         break;
+        //     System.out.println(index);
+        // }
+
+        // Printing A to Z , Stop at M
+
+        // char Alpha = 'A';
+
+        // for(char index = Alpha; index <= 'Z'; index++)
+        // {
+        //     if(index == 'M')
+        //         break;
+        //     System.out.println(index);
+        // }
+
+        // Printing Number until we find 7 then break;
+
+        // int index = 1;
+
+        // while(index > 0){
+
+        //     if(index == 7){
+        //         break;
+        //     }
+        //     index = index + 1;
+        //     System.out.println(index);
+
+        // }
+
+        // Print the even 1 - 20 
+
+        // for(int index = 1; index <= 20; index = index + 1)
+        // {
+        //     if(index % 2 != 0)
+        //         continue;
+        //     System.out.println(index);
+        // }
+
+        // Printing the odd 1 - 20
+
+        for(int index = 1; index <= 20; index = index + 1)
         {
-            if(i%2 != 0)
-                // break; // 1, 2, 3, 4
-                // odd 
+            if(index % 2 == 0)
                 continue;
-            System.out.println(i);
+            System.out.println(index);
         }
+
 
     }
 }
