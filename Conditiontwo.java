@@ -5,7 +5,6 @@ public class Conditiontwo
     public static void main(String[] args) 
     {
         
-
         // Assignment - 1
 
         // int marks;

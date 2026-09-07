@@ -354,5 +354,41 @@ public class LoopsSelfPractice {
          // }while(number > 0);
 
          // System.out.println(sum);
+
+         // ArmStrong 
+
+         int Number; 
+         int result;
+         int ArmStrong = 0;
+         int Sum = 0;
+         int count = 0;
+
+         Scanner Num = new Scanner(System.in);
+         System.out.println("Enter the number to check the palindrome : ");
+         Number = Num.nextInt();
+
+         int UserNumber = Number;
+
+         while(Number > 0)
+         {
+
+            result = Number % 10;
+            ArmStrong = result * result * result;
+            Sum = Sum + ArmStrong;
+            Number = Number / 10;
+
+         }
+
+         if(UserNumber == Sum)
+         {
+            System.out.println("It is an ArmStrong number");
+         }
+         else
+         {
+            System.out.println("It is not an ArmStrong Number");
+         }
+
+
+
       }
 }
