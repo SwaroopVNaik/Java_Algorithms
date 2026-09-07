@@ -20,23 +20,24 @@ public class BinaryRadix{
         for(int i = 0; i <= number.length() - 1; i++)
         {
             char ch = number.charAt(i);
-            // Decimal Logic
+            // binary Logic
             if(ch < '0' || ch > '1')
             {
                 binary = false;
             }
-            // Binary Logic
+            // Octal Logic
             if(ch < '0' || ch > '7')
             {
                 octal = false;
                 // break; // --> does not go to if else statement as it break the program flow 
             }
-            // Octal Logic
+            // Decimal Logic
              if (ch < '0' || ch > '9')
             {
                 Decimal = false;
                 // break; --> does not go to 
             }
+            // HexaDecimal 
             if((ch < '0' || ch > '9') && (ch < 'A' || ch > 'F') && (ch < 'a' || ch > 'f'))
             {
                 HexaDecimal = false;
@@ -68,6 +69,7 @@ public class BinaryRadix{
                 }
 
         sc.close();
+
 
     }
 
