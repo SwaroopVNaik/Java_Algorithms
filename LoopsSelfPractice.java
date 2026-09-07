@@ -183,47 +183,176 @@ public class LoopsSelfPractice {
 
         // Printing each digit 
 
-        // int number; 
+      //   int number; 
 
-        // Scanner Digit = new Scanner(System.in);
+      //   int Reverse = 0;
 
-        // System.out.println("enter the number : ");
-        // number = Digit.nextInt();
+      //   Scanner Digit = new Scanner(System.in);
 
-        // while(number > 0)
-        // {
-        //     int result = number % 10;
+      //   System.out.println("enter the number : ");
+      //   number = Digit.nextInt();
+
+      //   while(number > 0)
+      //   {
+      //       int result = number % 10;
             
-        //     number = number/10;
+      //       number = number/10;
 
-        //     System.out.println(result);
+      //       // Reverse = Reverse * 10 + result;
 
-        // }
+      //       System.out.println(result);
+
+      //   }
 
         // count of digits
 
-        // int number; 
-        // int count = 0;
-        // int result;
+      //   int number; 
+      //   int count = 0;
+      //   int result;
 
-        // Scanner Digit = new Scanner(System.in);
+      //   Scanner Digit = new Scanner(System.in);
 
-        // System.out.println("enter the number : ");
-        // number = Digit.nextInt();
+      //   System.out.println("enter the number : ");
+      //   number = Digit.nextInt();
 
-        // while(number > 0)
-        // {
-        //     result = number % 10;
-        //     count = count + 1;
+      //   while(number > 0)
+      //   {
+      //       result = number % 10;
+      //       count = count + 1;
+      //       number = number / 10;
+      //   }
+      //   System.out.println(count);
+
+        // Reverse
+
+        // int number;
+        // int Reverse = 0;
+
+        // Scanner Rev = new Scanner(System.in);
+
+        // System.out.println("Enter the number : ");
+        // number = Rev.nextInt();
+
+        // while(number != 0){
+
+        //     // get last digit
+        //     int result = number % 10;
+        //     // Reverse Number store
+        //     Reverse = Reverse * 10 + result;
+        //     // store the number
         //     number = number / 10;
+
         // }
-        // System.out.println(count);
+        // System.out.println(Reverse);
 
-        // Reverse 
+        // Palindrome
 
-        
+         // int number;
+         // int Reverse = 0;
+         // int temp = 0;
+
+         // Scanner Rev = new Scanner(System.in);
+
+         // System.out.println("Enter the number : ");
+         // number = Rev.nextInt();
+
+         // temp = number;
+
+         // while(number > 0)
+         // {
+         //    int result = number % 10;
+         //    Reverse = Reverse * 10 + result;
+         //    number = number/10;
+         // }
+
+         // if(temp == Reverse)
+         // {
+         //    System.out.println("it is a palindrome");
+         // }
+         // else
+         // {
+         //    System.out.println("it is not a palindrome");
+         // }
 
 
+         // Printing Each Digit using do while loop 
 
-    }
+         // int Number;
+
+         // Scanner Dig = new Scanner(System.in);
+
+         // System.out.println("Enter the Number : ");
+         // Number = Dig.nextInt();
+
+         // do{
+
+         //    int result = Number % 10;
+         //    System.out.println(result);
+         //    Number = Number / 10;
+
+         // }while(Number > 0);
+
+         // Printing the count of digits using do while
+
+         // int Number;
+         // int Count = 0;
+         // int result;
+         // Scanner Digit = new Scanner(System.in);
+
+         // System.out.println("Enter the Number : ");
+         // Number = Digit.nextInt();
+
+         // do{
+
+         //    result = Number % 10;
+         //    Count = Count + 1;
+         //    Number = Number/10;
+
+         // }while(Number > 0);
+
+         // System.out.println(Count);
+
+         // Reversing the number using do while
+
+         // int number;
+         // int Reverse = 0;
+
+         // Scanner DoReverse = new Scanner(System.in);
+
+         // System.out.println("Enter the number");
+         // number = DoReverse.nextInt();
+
+         // do{
+
+         //    int result = number % 10;
+
+            // Integer does not preseve leading Zero's 
+         //    Reverse = Reverse * 10 + result;
+
+         //    number = number/10;
+
+         // }while(number > 0);
+
+         // System.out.println("The Reverse Number is : " + Reverse);
+
+         // doing sum of all digits using do while 
+
+         int number;
+         int result;
+         int sum = 0;
+
+         Scanner SUM = new Scanner(System.in);
+
+         System.out.println("Enter the number : ");
+         number = SUM.nextInt();
+
+         do{
+            result = number % 10;
+            sum = sum + result;
+            number = number/10;
+
+         }while(number > 0);
+
+         System.out.println(sum);
+      }
 }
