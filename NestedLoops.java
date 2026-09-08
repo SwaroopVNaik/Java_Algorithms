@@ -1,14 +1,14 @@
 public class NestedLoops {
     public static void main(String[] args) {
         
-        // for(int i = 1; i <= 3; i++)
-        // {
-        //     for(int j = 1; j <= 3; j++)
-        //     {
-        //         System.out.print("(" + i + "," + j + ")" + ",");
-        //     }
-        //     System.out.println();
-        // }
+        for(int i = 1; i <= 3; i++)
+        {
+            for(int j = 1; j <= 3; j++)
+            {
+                System.out.print("(" + i + "," + j + ")" + ",");
+            }
+            System.out.println();
+        }
 
         // print *
 
@@ -92,21 +92,21 @@ public class NestedLoops {
         int index = 1; 
         int indexx = 1;
 
-       do{
+    //    do{
 
-        while(indexx <= 4)
-        {
-            System.out.print("Algorithms" + " ");
-            indexx = indexx + 1;
-        }
+    //     while(indexx <= 4)
+    //     {
+    //         System.out.print("Algorithms" + " ");
+    //         indexx = indexx + 1;
+    //     }
         
-        System.out.println();
+    //     System.out.println();
 
-        index = index + 1;
+    //     index = index + 1;
 
-        indexx = 1;
+    //     indexx = 1;
 
-       }while(index <= 4);
+    //    }while(index <= 4);
 
 
 
