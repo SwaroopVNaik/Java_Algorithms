@@ -49,13 +49,12 @@ public class BreakandContinue
 
         // Printing the odd 1 - 20
 
-        for(int index = 1; index <= 20; index = index + 1)
-        {
-            if(index % 2 == 0)
-                continue;
-            System.out.println(index);
-        }
-
+        // for(int index = 1; index <= 20; index = index + 1)
+        // {
+        //     if(index % 2 == 0)
+        //         continue;
+        //     System.out.println(index);
+        // }
 
     }
 }
