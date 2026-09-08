@@ -34,14 +34,84 @@ public class NestedLoops {
 
         // Printing 123
 
-        for(int index = 1; index <= 3 ; index = index + 1)
+        // for(int index = 1; index <= 3 ; index = index + 1)
+        // {
+        //     for(int jndex = 1; jndex <= 3; jndex = jndex + 1)
+        //     {
+        //         System.out.print("123" + " ");
+        //     }
+        //     System.out.println();
+        // }
+
+        // While inside for 
+
+        // for(int index = 1; index <= 4; index = index + 1)
+        // {
+        //     int indexx = 1;
+        //     while(indexx <= 4)
+        //     {
+        //         System.out.print("* ");
+        //         indexx = indexx + 1;
+        //     }
+
+        //     System.out.println();
+        // }
+
+        // for inside do while 
+
+        // int index = 1;
+
+        // do{
+
+        //     for(int indexx = 1; indexx <= 4; indexx = indexx + 1)
+        //     {
+        //         System.out.print("XYZ" + " ");
+        //     }
+        //     System.out.println();
+        //     index = index + 1;
+
+        // }while(index <= 4);
+
+        // do while inside for
+
+        // int index = 1;
+
+        // do{
+
+        //     for(int indexx = 1; indexx <= 4; indexx = indexx + 1)
+        //     {
+        //         System.out.print("* " );
+        //     }
+        //     System.out.println();
+        //     index = index + 1;
+
+        // }while(index <= 4);
+
+        // while inside do while
+
+        int index = 1; 
+        int indexx = 1;
+
+       do{
+
+        while(indexx <= 4)
         {
-            for(int jndex = 1; jndex <= 3; jndex = jndex + 1)
-            {
-                System.out.print("123" + " ");
-            }
-            System.out.println();
+            System.out.print("Algorithms" + " ");
+            indexx = indexx + 1;
         }
+        
+        System.out.println();
+
+        index = index + 1;
+
+        indexx = 1;
+
+       }while(index <= 4);
+
+
+
+
+
 
     }
 }

@@ -388,6 +388,25 @@ public class LoopsSelfPractice {
             System.out.println("It is not an ArmStrong Number");
          }
 
+         // Fibbonica --> pending 
+
+         // int Number;
+         // int Fibbonica = 0;
+         // int result;
+
+         // Scanner FIB = new Scanner(System.in);
+         // System.out.println("Enter the number : ");
+         // Number = FIB.nextInt();
+
+         // do{
+
+
+
+         // }while();
+
+
+
+
 
 
       }
