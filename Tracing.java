@@ -112,28 +112,38 @@ public class Tracing
 
         // Tracing Problem - 5
 
-        int i = 5;
-        int result = 0;
+        // int i = 5;
+        // int result = 0;
 
-        do{
-            if(i % 2 == 0)
-            {
-                result = result + i;
-            }
-            else
-            {
-                result = result - 1;
-            }
+        // do{
+        //     if(i % 2 == 0)
+        //     {
+        //         result = result + i;
+        //     }
+        //     else
+        //     {
+        //         result = result - 1;
+        //     }
 
-            i = i - 1;
+        //     i = i - 1;
 
-        }while(i > 1);
+        // }while(i > 1);
 
-        System.out.println(result);
+        // System.out.println(result);
 
         // Tracing Problem - 6
 
+        // int count = 0;
 
+        for(int i = 1; i <= 3; i++)
+        {
+            for(int j = 1; j <= 3; j++)
+            {
+                if((i + j) % 2 == 0){
+                    count = count + 1;
+                }
+            }
+        }
 
 
 
