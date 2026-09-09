@@ -135,15 +135,36 @@ public class Tracing
 
         // int count = 0;
 
+        // for(int i = 1; i <= 3; i++)
+        // {
+        //     for(int j = 1; j <= 3; j++)
+        //     {
+        //         if((i + j) % 2 == 0){
+        //             count = count + 1;
+        //         }
+        //     }
+        // }
+
+        // Tracing Problem 7  (pending )
+
+        int x = 2;
         for(int i = 1; i <= 3; i++)
         {
-            for(int j = 1; j <= 3; j++)
+            for(int j = 1; j <= 2; j++)
             {
-                if((i + j) % 2 == 0){
-                    count = count + 1;
+                x = x + i + j;
+
+                if(x  > 10)
+                {
+                    x = x - 3;  
                 }
             }
+            System.out.println(x);
         }
+
+
+
+
 
 
 
