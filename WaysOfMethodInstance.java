@@ -57,9 +57,7 @@
         WaysInstance obj4 = new WaysInstance();
         int IntLarge = obj4.Max(100, 700);
         System.out.println(IntLarge);
-
-        
-
     }
 }
 
+ 
