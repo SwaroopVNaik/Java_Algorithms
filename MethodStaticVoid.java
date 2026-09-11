@@ -595,15 +595,15 @@ public class MethodStaticVoid
 
         // Program 20 
 
-        // Scanner countuu = new Scanner(System.in);
+        Scanner countuu = new Scanner(System.in);
 
-        // System.out.println("Enter the number : ");
-        // int number = countuu.nextInt();
+        System.out.println("Enter the number : ");
+        int number = countuu.nextInt();
 
-        // MethodStaticVoid obj8 = new MethodStaticVoid();
-        // int result = obj8.tan(number);
+        MethodStaticVoid obj8 = new MethodStaticVoid();
+        int result = obj8.tan(number);
 
-        // System.out.println("the number of digit is : " + result);
+        System.out.println("the number of digit is : " + result);
 
         // Program 21 
 
@@ -638,30 +638,13 @@ public class MethodStaticVoid
 
         // Program 24
         
-        Scanner SOON = new Scanner(System.in);
+        // Scanner SOON = new Scanner(System.in);
 
-        System.out.println("Enter thr number to check palin or not : ");
-        int number = SOON.nextInt();
+        // System.out.println("Enter thr number to check palin or not : ");
+        // int number = SOON.nextInt();
 
-        MethodStaticVoid OM = new MethodStaticVoid();
-        OM.Omega7(number);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        // MethodStaticVoid OM = new MethodStaticVoid();
+        // OM.Omega7(number);
 
 
     }
