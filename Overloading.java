@@ -66,6 +66,31 @@ public class Overloading
                 return z;
             }
         }
+
+        long max(long x, long y)
+        {
+
+            if(x > y)
+            {
+                return x;
+            }
+            else
+            {
+                return y;
+            }
+        }
+
+        double max(double a, double b)
+        {
+            if(a > b)
+            {
+                return a;
+            }
+            else
+            {
+                return b;
+            }
+        }
     
 
 
@@ -73,9 +98,9 @@ public class Overloading
     {
 
         Overloading obj1 = new Overloading();
-        System.out.println(obj1.max(10, 20));
+        System.out.println(obj1.max(10f, 20d));
         System.out.println(obj1.max(10, 20, 30));
-
+        System.out.println(obj1.max((byte) 1, (byte) 4));
 
 
     }
