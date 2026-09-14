@@ -9,19 +9,29 @@ public class QuestionSevenTeen
     {
         Scanner SC = new Scanner(System.in);
 
+        System.out.println("======================================");
         System.out.println("Marks Secured in Java out of 100 : ");
+        System.out.println("======================================");
         int java = SC.nextInt();
 
+        System.out.println("======================================");
         System.out.println("Marks Secured in DSA out of 100 : ");
+        System.out.println("======================================");
         int DSA = SC.nextInt();
 
+        System.out.println("======================================");
         System.out.println("Marks Secured in DBMS out of 100 : ");
+        System.out.println("======================================");
         int DBMS = SC.nextInt();
 
+        System.out.println("======================================");
         System.out.println("Marks Secured in OS out of 100 : ");
+        System.out.println("======================================");
         int OS = SC.nextInt();
 
+        System.out.println("======================================");
         System.out.println("Marks Secured in CN out of 100 : ");
+        System.out.println("======================================");
         int CN = SC.nextInt();
 
         TotalMarks(java, DSA, DBMS, OS, CN);
@@ -34,7 +44,9 @@ public class QuestionSevenTeen
     {
         
         int total = java + DSA + DBMS + OS + CN ;
+        System.out.println("======================================");
         System.out.println("The total Marks Obtained is : " + total);
+        System.out.println("======================================");
 
         Percentage(java, DSA, DBMS, OS, CN);
 
@@ -45,7 +57,10 @@ public class QuestionSevenTeen
     {
         float per = ((java + DSA + DBMS + OS + CN )/ 500f ) * 100; 
 
+        System.out.println("=========================================");
         System.out.printf("The Percentage is : %.2f", per , "%");
+        System.out.println();
+        System.out.println("=========================================");
 
         System.out.println();
         Grade(per);
@@ -103,10 +118,14 @@ public class QuestionSevenTeen
 
         Scanner SC = new Scanner(System.in);
 
+        System.out.println("====================================");
         System.out.println("Enter the Name of the Student : ");
+        System.out.println("=====================================");
         String name = SC.next();
 
+        System.out.println("=====================================");
         System.out.println("Enter the Student USN : ");
+        System.out.println("=====================================");
         String USN = SC.next();
 
         QuestionSevenTeen obj = new QuestionSevenTeen();
