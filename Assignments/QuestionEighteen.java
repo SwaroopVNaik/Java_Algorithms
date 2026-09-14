@@ -12,8 +12,6 @@ public class QuestionEighteen {
 
         String pin = "";
 
-        // Where to store the updated variable ! (pending)
-
         for(int index = 3; index >= Attempts; index = index - 1 )
         {
             System.out.println("Enter the Pin : ");
