@@ -8,19 +8,30 @@ public class QuestionEighteen {
     {
         Scanner SC = new Scanner(System.in);
 
-        int Attempts = 3;
+        int Attempts = 1;
 
         String pin = "";
 
         // Where to store the updated variable ! (pending)
 
-        for(int index = 1; index <= Attempts; index = index + 1 )
+        for(int index = 3; index >= Attempts; index = index - 1 )
         {
             System.out.println("Enter the Pin : ");
             pin = SC.next();
 
-            PIN(pin);
+            if(pin.equals("0095") && pin.length() == 4)
+            {
+                PIN(pin);
+                return;
+            }
+            else
+            {
+                System.out.println(index + " Attempts left");
+            }
+
         }
+
+        System.out.println("User is Blocked 3 of 3 Attempts");
             
     }
 
@@ -61,7 +72,7 @@ public class QuestionEighteen {
         {
 
             case 1 :
-                CheckBalance(Balance);
+                CheckBalance(Balance, Deposit);
                 break;
 
             case 2 :
@@ -87,19 +98,35 @@ public class QuestionEighteen {
         }
     }
 
-    static void CheckBalance(double Deposit)
+    static void CheckBalance(double Deposit, double WithDraw)
     {
         double Balance = 50000;
 
-        double TotalBalance = Balance + Deposit;
+        double TotalBalance = 0;
 
-        System.out.println("Balance : " + TotalBalance);
+        double TotalBalance2 = 0;
+
+        System.out.println("Total Balance : " + Balance);
+
+        if(Deposit > 0)
+        {
+            TotalBalance = Balance + Deposit;
+            System.out.println("Balance : " + TotalBalance);
+        }
+        else if(WithDraw > 0)
+        {
+            TotalBalance2 = Balance - WithDraw;
+            System.out.println("Balance : " + TotalBalance2);
+        }
 
 
     }
 
     static void DepositMoney(double Balance)
     {
+
+        double WithDraw = 0;
+
         Scanner obj = new Scanner(System.in);
 
         System.out.println("Enter the Amount to Deposit : ");
@@ -107,12 +134,14 @@ public class QuestionEighteen {
 
         System.out.println("Amount : " + Deposit + " Successfully Deposited ");
 
-        CheckBalance(Deposit);
+        CheckBalance(Deposit, WithDraw);
 
     }
 
     static void WithDrawMoney()
     {
+
+        double Deposit = 0;
 
         double WithDraw = 0;
 
@@ -123,16 +152,36 @@ public class QuestionEighteen {
 
         System.out.println("Amount : " + WithDraw + " Successfully With Draw Money");
 
+        CheckBalance(Deposit, WithDraw);
+
     }
 
     static void ChangePin()
     {
+        Scanner obj = new Scanner(System.in);
 
+        System.out.println("Enter the Previous Pin : ");
+        String PrevPIN = obj.next();
+
+        String NewPin = "";
+
+        if(PrevPIN.equals("0095") && PrevPIN.length() == 4)
+        {
+            System.out.println("Enter Your New Pin : ");
+            NewPin = obj.next();
+            System.out.println("The New Pin successfully Changed : " + NewPin);
+
+        }
+        else
+        {
+            System.out.println("Previous Pin is not Matching");
+        }
     }
 
     static void Exit()
     {
-
+        System.out.println("Thank You For Banking with SBI");
+        System.out.println("Successfull done ! after coding it for 8 hours ! ");
     }
 
     public static void main(String[] args) {
