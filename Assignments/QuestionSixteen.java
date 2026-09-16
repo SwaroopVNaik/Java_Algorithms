@@ -21,8 +21,8 @@ public class QuestionSixteen
             System.out.println("NumC is largest Number");
         }
 
-        max(numA, numB, numC);
-        max(numA, numB, numC);
+        
+        
     }
 
     static void max(int numA, int numB, int numC)
