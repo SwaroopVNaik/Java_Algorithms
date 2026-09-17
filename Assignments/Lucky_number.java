@@ -50,15 +50,13 @@ public class Lucky_number {
 
         PersonalityReading(Total2);
 
-        NAME(null,Total2);
-
     }
 
-    void NAME(String name, int Total2){
+    void NAME(String name){
 
         System.out.println();
         System.out.println();
-        System.out.println("hey " + name + " Your Lucky Number is : " + Total2);
+        System.out.println("hey " + name + " Your Lucky Number is : ");
 
     }
 
@@ -123,7 +121,7 @@ public class Lucky_number {
 
         Lucky_number obj2 = new Lucky_number();
         obj2.SumOfDigits(Day, Month, Year);
-        obj2.NAME(name, Total2);
+        obj2.NAME(name);
 
 
     }
