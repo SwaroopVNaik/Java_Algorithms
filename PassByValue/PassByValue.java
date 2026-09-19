@@ -11,6 +11,7 @@ public class PassByValue {
 
         int number = 10;
 
+        System.out.println(number);
         int result = number(number);
         System.out.println(result);
 
