@@ -15,6 +15,10 @@ public class SecondLargest
                 SecondLargest = FirstHighest;
                 FirstHighest = number;
             }
+            else if(number > SecondLargest && number != FirstHighest)
+            {
+                SecondLargest = number;
+            }
         }
         return SecondLargest;
     }
@@ -23,11 +27,11 @@ public class SecondLargest
     public static void main(String[] args) 
     {
 
-        int arr[] = {10, 15, 12, 19, 25, 18, 92, 100};
+        int arr[] = {20, 40, 52, 45, 20, 52};
 
         SecondLargest obj = new SecondLargest();
 
-        obj.getSecondLargest(arr);
+        System.out.println(obj.getSecondLargest(arr));
 
     }
 
