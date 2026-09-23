@@ -1,5 +1,3 @@
-package For_Each_And_Arrays;
-
 public class SumForEach 
 {
 

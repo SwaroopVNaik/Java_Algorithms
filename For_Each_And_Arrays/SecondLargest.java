@@ -1,33 +1,26 @@
-package For_Each_And_Arrays;
-
 public class SecondLargest 
 {
 
     int getSecondLargest(int[] arr)
     {
-        int FirstHighest = arr[0];
-        int SecondLargest = arr[0];
+        int firstHighest = 0;
+        int secondLargest = 0;
 
         for(int number : arr)
         {
-            if(number > FirstHighest)
+            if(number > firstHighest)
             {
-                SecondLargest = FirstHighest;
-                FirstHighest = number;
-            }
-            else if(number > SecondLargest && number != FirstHighest)
-            {
-                SecondLargest = number;
+                firstHighest = number;
             }
         }
-        return SecondLargest;
+        return secondLargest;
     }
 
 
     public static void main(String[] args) 
     {
 
-        int arr[] = {20, 40, 52, 45, 20, 52};
+        int arr[] = {42, 82, 11, 95, 23, 7, 56, 89, 4, 31, 67, 15, 73, 50, 61};
 
         SecondLargest obj = new SecondLargest();
 

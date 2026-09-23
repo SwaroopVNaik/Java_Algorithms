@@ -1,10 +1,8 @@
-package For_Each_And_Arrays;
-
 public class NumberOfDigits 
 {
 
     
-    void getNumberOfPositiveNegativeAndZeroDegits(int[] arr)
+    void getNumberOfDegits(int[] arr)
     {
 
         int positiveNumber = 0;
@@ -58,7 +56,7 @@ public class NumberOfDigits
         NumberOfDigits obj = new NumberOfDigits();
         
         // Accessing the method using the reference variable
-        obj.getNumberOfPositiveNegativeAndZeroDegits(arr);
+        obj.getNumberOfDegits(arr);
 
     }
 
