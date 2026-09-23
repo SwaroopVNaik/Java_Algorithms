@@ -40,9 +40,18 @@ public class NumberOfDigits
     {
         int[] arr = {4, -4, 7, 0, 10, -12, 5, 10, -12, 5, -10, 0, 7, 6, -5, 4, -3, 2};
 
+        int index = 0;
+
         for(int number : arr)
         {
-            System.out.print(number + ",");
+            System.out.print(number);
+
+            if(index < arr.length - 1)
+            {
+                System.out.print(",");
+            }
+
+            index = index + 1;
         }
 
         // Instance Method Object Creation
