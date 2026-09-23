@@ -7,6 +7,7 @@ public class VarArgs
     {
         System.out.println("Arguments");
 
+        // normal for loop
         for(int index = 0; index < a.length; index = index + 1)
         {
             System.out.print(a[index]);
@@ -15,7 +16,8 @@ public class VarArgs
             {
                 System.out.print(",");
             }
-        }
+        } 
+
     }
 
     /* static void show(int a)
