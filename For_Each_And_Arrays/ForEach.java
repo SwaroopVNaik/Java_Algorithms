@@ -5,13 +5,18 @@ public class ForEach
 
     static void traverse(int[] arr)
     {
+
+        int index = 1;
+
         for(int x : arr)
         {
             System.out.print(x);
 
-            if(x < arr.length)
+            if(index < arr.length)
             {
                 System.out.print(",");
+
+                index = index + 1;
             }
             // implement if for to remove last coma (length - 1)
         }
