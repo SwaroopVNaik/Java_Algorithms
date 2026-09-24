@@ -5,18 +5,34 @@ public class VarArgs
 
     static void show(int...a)
     {
+
+        int count = 1;
+
         System.out.println("Arguments");
 
         // normal for loop
-        for(int index = 0; index < a.length; index = index + 1)
-        {
-            System.out.print(a[index]);
+        // for(int index = 0; index < a.length; index = index + 1)
+        // {
+        //     System.out.print(a[index]);
 
-            if(index < a.length)
+        //     if(index < a.length)
+        //     {
+        //         System.out.print(",");
+        //     }
+        // }
+        
+        for(int number : a)
+        {
+            System.out.print(number);
+
+            if( count < a.length)
             {
                 System.out.print(",");
+
+                count = count + 1;
             }
-        } 
+        }
+
 
     }
 

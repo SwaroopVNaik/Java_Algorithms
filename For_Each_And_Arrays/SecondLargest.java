@@ -1,30 +1,50 @@
-public class SecondLargest 
-{
+import java.util.Scanner;
 
-    int getSecondLargest(int[] arr)
+public class SecondLargest{
+
+    int getSecondLargest(int[] Array)
     {
-        int firstHighest = 0;
+        int largest = 0;
         int secondLargest = 0;
 
-        for(int number : arr)
+        for(int number : Array)
         {
-            if(number > firstHighest)
+            if(number > largest)
             {
-                firstHighest = number;
+                secondLargest = largest;
+                largest = number;
+            }
+            else if(number > secondLargest && number != largest)
+            {
+                secondLargest = number;
             }
         }
         return secondLargest;
     }
 
-
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
 
-        int arr[] = {42, 82, 11, 95, 23, 7, 56, 89, 4, 31, 67, 15, 73, 50, 61};
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.println("Enter the Size of the array : ");
+
+        int size = scanner.nextInt();
+
+        int [] Array = new int[size];
+
+        System.out.println("Enter " + size + " elements of the array : ");
+
+        for(int index = 0; index < size; index = index + 1)
+        {
+            Array[index] = scanner.nextInt();
+        }
 
         SecondLargest obj = new SecondLargest();
 
-        System.out.println(obj.getSecondLargest(arr));
+        System.out.println();
+
+        System.out.println("Second Largest Number in the Array :" + obj.getSecondLargest(Array));
 
     }
 
